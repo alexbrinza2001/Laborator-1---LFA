@@ -53,7 +53,9 @@ for line in f:
             lista = line.split('\t')
             line = lista[1]
 
-            list = line.split(', ')
+            list = line.split(' ')
+            list[0] = list[0][:-1]
+            list[1] = list[1][:-1]
             state1 = list[0]
             state2 = list[2]
             word = list[1]
