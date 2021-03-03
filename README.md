@@ -1,2 +1,3 @@
-# Laborator-1---LFA
+# Laborator 1 LFA
 Citire DFA
+Brînză Tudor-Alexandru
