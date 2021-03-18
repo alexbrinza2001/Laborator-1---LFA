@@ -1,0 +1,23 @@
+Sigma:
+    1
+    0
+End
+States:
+    a, S
+    b
+    c
+    d, F
+    e
+    f, F
+End
+Transitions:
+    a, 1, b
+    a, 0, e
+    b, 0, c
+    c, 0, d
+    d, 0, d
+    e, 1, c
+    e, 0, f
+    f, 0, f
+    f, 1, d
+End
